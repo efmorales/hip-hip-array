@@ -161,7 +161,7 @@ while (students.length>i){
   ];
   
   i = 0;
-  let newStudents = studentsCopy.slice(2,-3);
+  let newStudents = studentsCopy.slice(3,-2);
   
   while (newStudents.length > i){
     console.log(newStudents[i]);
@@ -193,14 +193,11 @@ while (students.length>i){
 
 
   i = 0;
-  let newStudents1 = studentsCopy2.splice(2);
+  let newStudents1 = studentsCopy2.splice(3);
   let newStudents2 = newStudents1.splice(0,8);
-  let c10Array = ["Greyson", "Dominic", "Tyler", "Brian"];
-  let c10Final = newStudents2.concat(c10Array);
 
-
-  while(c10Final.length > i){
-    console.log(c10Final[i]);
+  while(newStudents2.length> i){
+    console.log(newStudents2[i]);
     i++;
   }
 
@@ -231,7 +228,7 @@ while (students.length>i){
   console.log("\n");
 
   i = 0;
-  let newStudents11 = studentsCopy3.slice(2,-3);
+  let newStudents11 = studentsCopy3.slice(3,-2);
   while(newStudents11.length > i){
     console.log(newStudents11[i]);
     i++
