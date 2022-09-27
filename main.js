@@ -195,7 +195,7 @@ while (students.length>i){
   i = 0;
   let newStudents1 = studentsCopy2.splice(2);
   let newStudents2 = newStudents1.splice(0,8);
-  let c10Array = ["Greyson", "Dominic", "Tyler"];
+  let c10Array = ["Greyson", "Dominic", "Tyler", "Brian"];
   let c10Final = newStudents2.concat(c10Array);
 
 
