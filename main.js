@@ -254,8 +254,7 @@ while (students.length>i){
   // Challenge 12 Code
 
   i = 0;
-  dinosaurs.splice(0,4)
-  dinosaurs.splice (-1)
+  dinosaurs.splice(4,3)
   
   while(dinosaurs.length > i){
     console.log(dinosaurs[i]);
